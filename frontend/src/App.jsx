@@ -128,7 +128,7 @@ export default function App() {
   }, [])
 
   const fetchProfile = async (sub, refresh = false) => {
-    const res = await fetch('http://localhost:8000/analyze', {
+    const res = await fetch('https://amnotlucifer-reddit-npc-backend.hf.space/analyze', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ subreddit: sub, refresh }),

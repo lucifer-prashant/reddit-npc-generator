@@ -45,7 +45,7 @@ export default function CharacterCard({ profile, embedded = false, imageDelay = 
     let cancelled = false
     setImgLoading(true)
     const pollinationsUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(profile.kling_prompt)}?width=512&height=512&nologo=true&model=turbo`
-    const proxyUrl = `http://localhost:8000/image-proxy?url=${encodeURIComponent(pollinationsUrl)}`
+    const proxyUrl = `https://amnotlucifer-reddit-npc-backend.hf.space/image-proxy?url=${encodeURIComponent(pollinationsUrl)}`
 
     const doFetch = () => {
       if (cancelled) return
