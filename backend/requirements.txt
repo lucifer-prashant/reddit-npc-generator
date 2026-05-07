@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+requests
+spacy
+nltk
+textstat
+sqlite-utils
+python-dotenv
+httpx
+PyJWT
+openai
