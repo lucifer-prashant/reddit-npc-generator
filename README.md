@@ -2,7 +2,7 @@
 
 Drop any subreddit. Get a character profile of the average person who posts there.
 
-**Live:** [reddit-npc.vercel.app](https://reddit-npc.vercel.app) &nbsp;|&nbsp; **Backend:** Hugging Face Spaces
+**Live:** [reddit-npc-generator.vercel.app ](https://reddit-npc-generator.vercel.app) &nbsp;|&nbsp; **Backend:** Hugging Face Spaces
 
 ---
 
